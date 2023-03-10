@@ -1,0 +1,1 @@
+{"columns_name": ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach", "exang", "oldpeak", "slope", "ca", "thal"], "gender": {"male": 0, "female": 1}}

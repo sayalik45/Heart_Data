@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction</title>
+</head>
+<body style="background-color: beige;">
+    <h1>Heart Disease Prediction</h1>
+
+
+    <form action="/get_data" method="post">
+        <label>Age:</label> <input type="number" name = 'html_age'> <br><br>
+        <label>Gender:</label> <input type = "text" name = 'html_sex'> <br><br>
+        <label>cp:</label> <input type = "number" name = "html_cp"> <br><br>
+        <label>trestbps:</label> <input type = 'number' name = 'html_trestbps'> <br><br>
+        <label>chol:</label> <input type = 'number' name = 'html_chol'> <br><br>
+        <label>fbs:</label> <input type = 'number' name = "html_fbs"> <br><br>
+        <label>restecg:</label><input type = 'number' name = "html_restecg"> <br><br>
+        <label>thalach:</label> <input type = "number" name = "html_thalach"> <br><br>
+        <label>exang:</label> <input type = 'number' name = 'html_exang'> <br><br>
+        <label>oldpeak:</label> <input type = "number" step = '0.01' name = "html_oldpeak"> <br><br>
+        <label>slope:</label> <input type = "number" name = "html_slope"> <br><br>
+        <label>ca:</label> <input type = 'number' name = "html_ca"> <br><br>
+        <label>thal:</label> <input type = "number" name = "html_thal"> <br><br>
+
+        
+            
+        </select> <br><br>
+
+        <input type="submit" value="HEART DISEASE PREDICTION">
+
+
+    </form><br>
+    <label>Predicted Disease : </label>{{prediction}}
